@@ -378,12 +378,12 @@ function infoPanelButtonAction () {
 //  return false
 // });
 
-$('#ball1 a').click(function(){
+$('#ball1 a').click(function( event ){
     circle1x = canvasW - (canvasW/2);
     circle1y = canvasH - ((canvasH/4)*3);
     circle1xVel = 2;
     circle1yVel = 2;
-    preventDefault();
+    event.preventDefault();
     return false;
 });
 

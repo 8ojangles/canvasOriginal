@@ -58,7 +58,7 @@ function initStartAnim() {
 function initStartOutroAnim() {
 	$('#start,#background,#stateSwitchBtns,#gameTitle').removeClass('outro intro staticOn staticOff').addClass('outro');
 	setTimeout(function(){
-			$('#start,#background,#stateSwitchBtns,#gameTitle').removeClass('outro intro staticOn staticOff').addClass('staticOff	');
+			$('#start,#background,#stateSwitchBtns,#gameTitle').removeClass('outro intro staticOn staticOff').addClass('staticOff');
 	},introFade_speed);
 } // end initStartAnim
 
