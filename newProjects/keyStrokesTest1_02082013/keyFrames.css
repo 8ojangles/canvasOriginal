@@ -1,0 +1,162 @@
+@keyframes opacityAnim {
+	0%   {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes opacityAnim { /* Safari and Chrome */	
+	0%   {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes backgroundSize_anim {
+	0%   {background-size: 101%;}
+	100% {background-size: 120%;}
+}
+
+@-webkit-keyframes backgroundSize_anim { /* Safari and Chrome */	
+	0%   {background-size: 101%;}
+	100% {background-size: 120%;}
+}
+
+@keyframes backgroundPos_anim {
+	0%   {background-position: center center%;}
+	100% {background-position: center 1200%;}
+}
+
+@-webkit-keyframes backgroundPos_anim { /* Safari and Chrome */	
+	0%   {background-position: center 0%;}
+	100% {background-position: center 900%;}
+}
+
+
+@keyframes gameTitle_settle {
+	0%   {opacity: 0;}
+	50% {opacity: 0.2;}
+	100% {opacity: 0.9;}
+}
+
+@-webkit-keyframes gameTitle_settle { /* Safari and Chrome */	
+	0%   {opacity: 0;}
+	50% {opacity: 0.2;}
+	100% {opacity: 0.9;}
+}
+
+@keyframes gameTitle2_settle {
+	0%   {opacity: 0.9;}
+	50% {opacity: 0.6;}
+	100% {opacity: 0.35;}
+}
+
+@-webkit-keyframes gameTitle2_settle { /* Safari and Chrome */	
+	0%   {opacity: 0.9;}
+	50% {opacity: 0.6;}
+	100% {opacity: 0.35;}
+}
+
+/*@keyframes vingette_anim {
+	0%   {opacity: 0;}
+	100% {opacity: 1;}
+}*/
+
+/*@-webkit-keyframes vingette_anim {  Safari and Chrome 	
+	0%   {opacity: 0;}
+	100% {opacity: 1;}
+}*/
+
+@keyframes vingette_anim_pulse {	
+	0%   {opacity: 0.1;}
+	7% {opacity: 0;}
+	10%   {opacity: 0.2;}
+	16% {opacity: 0;}
+	19%   {opacity: 0.1;}
+	25% {opacity: 0;}
+	33%   {opacity: 0.05;}
+	36% {opacity: 0;}
+	40%   {opacity: 0.1;}
+	48%   {opacity: 0;}
+	51%   {opacity: 0.05;}
+	57%   {opacity: 0;}
+	62%   {opacity: 0.2;}
+	68%   {opacity: 0;}
+	75%   {opacity: 0.15;}
+	79%   {opacity: 0;}
+	82%   {opacity: 0.1;}
+	89%   {opacity: 0;}
+	94%   {opacity: 0.05;}
+	96%   {opacity: 0;}
+	100% {opacity: 0.1;}
+}
+
+@-webkit-keyframes vingette_anim_pulse {	
+	0%   {opacity: 0.1;}
+	7% {opacity: 0;}
+	10%   {opacity: 0.2;}
+	16% {opacity: 0;}
+	19%   {opacity: 0.1;}
+	25% {opacity: 0;}
+	33%   {opacity: 0.05;}
+	36% {opacity: 0;}
+	40%   {opacity: 0.1;}
+	48%   {opacity: 0;}
+	51%   {opacity: 0.05;}
+	57%   {opacity: 0;}
+	62%   {opacity: 0.2;}
+	68%   {opacity: 0;}
+	75%   {opacity: 0.15;}
+	79%   {opacity: 0;}
+	82%   {opacity: 0.1;}
+	89%   {opacity: 0;}
+	94%   {opacity: 0.05;}
+	96%   {opacity: 0;}
+	100% {opacity: 0.1;}
+}
+
+@keyframes vingette2_anim_pulse {	
+	0%   {opacity: 0.1;}
+	7% {opacity: 0;}
+	10%   {opacity: 0.2;}
+	16% {opacity: 0;}
+	19%   {opacity: 0.1;}
+	25% {opacity: 0;}
+	33%   {opacity: 0.05;}
+	36% {opacity: 0;}
+	40%   {opacity: 0.1;}
+	48%   {opacity: 0;}
+	51%   {opacity: 0.05;}
+	57%   {opacity: 0;}
+	62%   {opacity: 0.2;}
+	68%   {opacity: 0;}
+	75%   {opacity: 0.15;}
+	79%   {opacity: 0;}
+	82%   {opacity: 0.1;}
+	89%   {opacity: 0;}
+	94%   {opacity: 0.05;}
+	96%   {opacity: 0;}
+	100% {opacity: 0.1;}
+}
+
+@-webkit-keyframes vingette2_anim_pulse {	
+	0%   {opacity: 0.1;}
+	7% {opacity: 0;}
+	10%   {opacity: 0.2;}
+	16% {opacity: 0;}
+	19%   {opacity: 0.1;}
+	25% {opacity: 0;}
+	33%   {opacity: 0.05;}
+	36% {opacity: 0;}
+	40%   {opacity: 0.1;}
+	48%   {opacity: 0;}
+	51%   {opacity: 0.05;}
+	57%   {opacity: 0;}
+	62%   {opacity: 0.2;}
+	68%   {opacity: 0;}
+	75%   {opacity: 0.15;}
+	79%   {opacity: 0;}
+	82%   {opacity: 0.1;}
+	89%   {opacity: 0;}
+	94%   {opacity: 0.05;}
+	96%   {opacity: 0;}
+	100% {opacity: 0.1;}
+}
+
+

@@ -1,0 +1,42 @@
+
+
+.searchBox form {
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	right:0;
+	top:18px;
+	width:98%;
+	height:35px;
+	}
+
+input.searchText-box {
+	color:#ccc;
+	font-size:1.1em;
+	padding:0 4% 0 2%;
+	margin:0px;
+	width:72%;
+	height:37px;
+	background:none;
+	border:none;
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.4);
+	}
+input.searchText-box:-moz-placeholder {
+	color:#888;
+	}
+
+input.searchText-box:focus {
+	background-color:rgba(0,0,0,0.2);
+	}
+
+
+
+.searchSubmit-box {
+	font-size:1em;
+	position:relative;
+	top:0px;
+	padding:0px;
+	margin:0px;
+	width:19%;
+	height:42px;
+	}

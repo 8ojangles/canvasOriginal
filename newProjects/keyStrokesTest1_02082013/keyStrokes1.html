@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Created using jsbin.com
+  Source can be edited via http://jsbin.com/uhiran/6/edit
+-->
+  <head>
+  <title>CreativeJS graphics playground</title> 
+  <style>
+    canvas { border : 1px lightgray solid; }
+    body { margin :0; }
+  </style>
+  <link rel="stylesheet" type="text/css" href="keyFrames.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  
+
+</head>
+  <body>
+    <div id="gameStateContainer">
+    <div id="stateSwitchBtns" class="staticOff">
+      <div class="start"><a href="#" class="playSwitch">Start</a></div>
+      <div class="continue"><a href="#" class="continueSwitch">Continue</a></div>
+      <div class="options"><a href="#" class="reverseSwitch">Options</a></div>
+    </div>
+    <div  style="display:none;" id="switchStateTest">
+      <div id="start" class="staticOff">
+      </div>
+      <div id="page1" class="staticOff">
+      </div>
+      <div id="page2" class="staticOff">
+      </div>
+    </div>
+  </div>
+
+    <div id="uiOverlay"> <!-- Start UI Overlay -->
+
+      <div class="infoPanelSwitch off">
+        <p>
+          <span>i</span>
+          <span class="long">info</span>
+        </p>
+      </div>
+
+      <div class="infoPanel closed"> <!-- Start Info Panel -->
+
+        <ul class="infoButtons"> <!-- Start Info Panel Button List -->
+          <!-- Info Panel Button List Items-->
+          <li id="Grav"><a>Gravity</a></li>
+          <li id="airR"><a>Air Resistance</a></li>
+          <li id="floorFriction"><a>Floor Friction</a></li> 
+          <li id="reset"><a>reset</a></li>
+          <li id="ball1"><a>ball 1</a></li>
+          <li id="data"><a>Data</a></li>
+        </ul> <!-- End Info Panel Button List -->
+
+      </div> <!-- End Info Panel -->
+      <div class="resetButton">
+        <p class="resetButtonTxt">
+          reset
+        </p>
+      </div>
+
+  </div> <!-- End UI Overlay -->
+    
+    <canvas id="creativejs"></canvas>
+
+    <div style="display:none;" id="gameTitle" class="staticOff">moody day</div>
+    <div style="display:none;" id="background" class="staticOff"></div>
+    <div style="display:none;" id="background2" class="staticOff"></div>
+    <div style="display:none;" id="background3" class="staticOff"></div>
+    <div style="display:none;" id="vingetteGrp" class="staticOff">
+      <div style="display:none;" id="vingetteBg" class="staticOff"></div>
+      <div style="display:none;" id="vingetteBg2" class="staticOff"></div>
+    </div>
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="creative.js"></script>
+<script type="text/javascript" src="jquery.hotkeys-0.7.9.js"></script>
+
+<script type="text/javascript" src="game.js"></script>
+<script type="text/javascript" src="keysCustom.js"></script>
+<script type="text/javascript" src="createBg.js"></script>
+<script type="text/javascript" src="keyBinds.js"></script>
+<script type="text/javascript" src="js.js"></script>
+
+
+
+</body>
+</html>
+  

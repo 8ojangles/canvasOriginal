@@ -1,0 +1,420 @@
+$textColor1 : #fff;
+
+.ui-nav-listItem-layers ul li a {
+	color:$textColor1;
+}
+
+.nav-global-listItem-window { 
+	
+	.windowBanner {
+		position:relative;
+		width:86%;
+		height:18%;
+		margin-bottom:1%;
+		padding:0 2%;
+		margin-left:5%;
+		background:rgba(255,255,255,0.3);
+	
+	h3:first-of-type {
+		font-size:3em;
+		font-weight: normal;
+		color:$textColor1;
+		text-align:left;
+		margin-top:20px;
+		margin-bottom:10px;
+		float:left;
+		width:50%;
+		// background:rgba(255,50,255,0.4);
+	}
+
+
+
+	h3:last-of-type {
+		font-size:3em;
+		font-weight: normal;
+		color:$textColor1;
+		text-align:left;
+		margin-top:20px;
+		margin-bottom:10px;
+		float:left;
+		width:28%;
+		margin-left:2%;
+		// background:rgba(50,50,255,0.4);
+	}
+
+	
+
+		a {
+			display: block;
+			width:10%;
+			padding:0 5%;
+			height:2.5em;
+			margin-top:20px;
+			float:left;
+			text-align:left;
+			
+			background-image: url(../images/uiIcon_changePlayer_live.png);
+			background-position: left center;
+			background-size: 50px 50px;
+			background-repeat: no-repeat;
+			font-size: 1.5em;
+			// background-color: #f00;
+		}
+	}
+}
+.nav-global-listItem-window .mainArticle {
+
+
+
+	h4 {
+		font-size:3em;
+		margin:0;
+		color:#fff;
+	}
+
+	img {
+		width:100%;
+		height:80%;
+		display:block;
+		background:#fff;
+	}
+
+
+
+	.dateAndTime {
+		position:absolute;
+		width:40%;
+		height:80px;
+		line-height:80px;
+		display:block;
+		bottom:60px;
+		left:37%;
+		background-color:rgba(0,0,0,0.6);
+		color:#fff;
+		font-size:1.4em;
+		text-align:center;
+	}
+
+	.playButton {
+		line-height:80px;
+		font-size:1.4em;
+		text-align:center;
+		width:16%;
+		height:80px;
+		left:77%;
+		bottom:60px;
+		display:block;
+		position: absolute;
+		background-color:rgba(0,0,0,0.6);
+		cursor:pointer;	
+		transition:all 0.2s linear;
+		&:hover {
+			background:#0f0;
+		}
+	}
+
+
+}
+
+
+.selectionGridBox-4 {
+		width:100%;
+		height:80%;
+		// background: #f00;
+
+		ul {
+			width:100%;
+			height:100%;
+			text-align:center;
+
+			li {
+				position:relative;
+				width:24%;
+				height:100%;
+				margin:0 1% 0 0;
+				float:left;
+				// background:#0f0;
+				display:block;
+
+				a {
+
+					font-size:2em;
+					display:block;
+					// height:100%;
+					// width:100%;
+					// background:#00f;
+					
+					&:hover {
+						// background:#0ff;
+					}
+				}
+			}
+		}
+	}
+
+	.selectionGridBox-32 {
+		width:100%;
+		height:80%;
+		background: #f00;
+
+		ul {
+			height:40%;
+			width:100%;
+
+			li {
+				display: block;
+			    float: left;
+			    height: 42%;
+			    margin: 0 1% 1% 0;
+			    width: 13%;
+
+				a {
+					width:100%;
+					height:100%;
+					display:block;
+					background: #f00;
+					text-align: center;
+					&:hover {
+						background: #0ff;
+					}
+				}
+			}
+		}
+
+	}
+
+.halfBox {
+	height:30%;
+
+}
+
+.lvlIcon {
+		position:absolute;
+		width:30%;
+		height:80px;
+		display:block;
+		bottom:60px;
+		left:7%;
+		background-color:rgba(0,0,0,0.6);
+		z-index: 30;
+		span {
+			display:block;
+			position:absolute;
+		}
+
+	}
+
+.lvlTtl {
+			width:50%;
+			text-align:right;
+			height:80px;
+			line-height:80px;
+			left:0;
+			font-size:1.6em;
+			color:#fff;
+		}
+
+		.lvlNo {
+			width:50%;
+			height:80px;
+			line-height:80px;
+			right:0;
+			text-align: left;
+			font-size:5em;
+			color:#fff;
+			text-indent:5px;
+		}
+
+.gameTypeList li {
+	a {
+	    background-repeat: no-repeat;
+	    
+	    height: 100%;
+
+	    span {
+	    	display: block;
+	    	position:absolute;
+	    	bottom:0;
+	    	height:40%;
+	    	width:100%;
+	    }
+	}
+}
+
+.gameNormalIcon {
+	background-image:url(../images/uiIcon_playerVCompLarge_master.png);
+	background-size: 70% auto;
+	background-position: center 30%;
+}
+.gameTimedIcon {
+	background-image:url(../images/clockAnimStatic.png);
+	background-size: 80% auto;
+	background-position: center 20%;
+}
+
+.gameTimedIcon:hover {
+	background-image:url(../images/alarmClockRing.gif);
+	background-size: 80% auto;
+	background-position: center 20%;
+}
+.gameGrindIcon {
+	background-image:url(../images/uiIcon_grinderLarge_master.png);
+	background-position: center 20%;
+}
+.gameMultiIcon {
+	background-image:url(../images/uiIcon_multiplayerGameLarge_master.png);
+	background-size: 70% auto;
+	background-position: center 25%;
+}
+
+.nav-global-listItem-window .subArticle {
+
+	.lvlIcon {
+		width:85%;
+		bottom:10px;
+	}
+
+	h4 {
+		font-size:3em;
+		margin:0;
+		color:#fff;
+	}
+
+	.savedGames {
+		width:100%;
+		height:80%;
+		display:block;
+		// background-color:rgba(0,0,0,0.2);
+	}
+	.savedGames li {
+		display:block;
+		position:relative;
+		float:left;
+		width: 24%;
+		height:100%;
+		background-color:rgba(0,0,0,0.2);
+		margin:0 1% 0 0;
+		transition:all 0.2s ease;
+		&:first-of-type {
+			opacity:1;
+		}
+		&:nth-of-type(2) {
+			opacity:0.8;
+		}
+		&:nth-of-type(3) {
+			opacity:0.6;
+		}
+		&:nth-of-type(4) {
+			opacity:0.4;
+		}
+		&:hover {
+			opacity:1;
+		}
+	}
+
+	li > a > img {
+		position:absolute;
+		top: 0;
+		left: 0;
+		width:100%;
+		height:100%;
+		z-index: 25;
+	}
+
+	li > a > p {
+		position:relative;
+		height:20%;
+		line-height:40px;
+		z-index: 30;
+		padding-left: 0.5em;
+		font-size: 1.5em;
+		background-color:rgba(0,0,0,0.2);
+	}
+
+
+}
+
+// 	h4 {
+// 		text-align:left;
+// 		margin:10px 10px 10px 40px;	
+// 		font-size:1.75em;
+// 		color:$textColor1;
+// 		width:40%;
+// 	}
+
+// 	p {
+// 		text-align:left;
+// 		margin:10px 10px 10px 40px;
+// 		color:$textColor1;
+// 		width:40%;
+// 	}
+
+// 	img {
+// 		float:left;
+// 		margin:10px 10px 10px 40px;
+// 		width:300px;
+// 		height:215px;
+// 		border:4px dashed #777;
+// 		outline: none;
+// 		transition:all 1s ease;
+// 	}
+
+// 	img:hover {
+// 		border:4px dashed #fff;
+// 		transition:all 1s ease;
+// 	}
+
+// 	ul {
+// 		position:absolute;
+// 		right:20px;
+// 		top:100px;
+// 		height:320px;
+// 		width:50%;
+
+// 		li,a,p,img {
+// 			margin:0;
+// 			padding:0;
+// 		}
+
+// 		li {
+// 			display:block;
+// 			height:25%;
+// 			width:100%;
+// 			margin:0;
+
+
+// 		a {
+// 			display:block;
+// 			width:100%;
+// 			height:100%;
+// 			margin:0;
+// 			background-color: rgba(255,255,255,0);
+// 			transition:all 0.5s ease;
+// 			&:hover {
+// 				background-color: rgba(255,255,255,0.2);
+// 				transition:all 0.5s ease;
+// 			}
+
+
+// 			img {
+// 				float:left;
+// 				width:50%;
+// 				height:70px;
+// 			}
+
+// 			p {
+// 				float:right;
+// 				clear:right;
+// 				font-size: 1em;
+// 				color: $textColor1;
+// 				line-height:30px;
+// 			}
+// 		}
+
+// 		}
+	
+// 	}
+
+
+
+// }

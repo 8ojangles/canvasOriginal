@@ -1,0 +1,37 @@
+@mixin fixedFullSizeBox {
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:0;
+}
+
+@mixin absoluteFullSizeBox {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	top:0;
+}
+
+@mixin opacityFadeOff {
+	opacity:0;
+	transition:opacity 0.3s ease;
+}
+
+@mixin opacityFadeOn {
+	opacity:1;
+	transition:opacity 0.3s ease;
+}
+
+@mixin headerFullWidthFixed {
+	position:fixed;
+	width:100%;
+	height:105px;
+	top:7.5%;
+}
+
+
+@mixin footerFullWidthFixed {
+	position:fixed;
+	bottom:0;
+	width:100%;
+}

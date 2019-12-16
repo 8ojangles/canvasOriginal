@@ -1,0 +1,19 @@
+/* Global Reset */
+
+div, p, ul, li, a, span, section, article {
+	padding:0;
+	margin:0;
+}
+
+img {margin:0;}
+p {padding:0; margin:0;}
+ul {margin:0;padding:0;list-style-type:none;}
+a{text-decoration:none;}
+h2 {color:#fff;}
+.clearFix {
+	clear:both;
+	height:0;
+	line-height:0;
+}
+
+/* End Global Reset */

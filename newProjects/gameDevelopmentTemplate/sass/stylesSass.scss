@@ -1,0 +1,179 @@
+/* Sass Stylesheet Import */
+
+/* mixin import */
+@import 'mixins';
+/* Global Reset */
+@import 'styleReset';
+/* Global Styles */
+@import 'global';
+/* Global Variables */
+@import 'globalVariables';
+/* Color Variables */
+@import 'colorVariables';
+
+.buttonBox {
+	font-size: 1.2em;
+    height: auto;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    transition: all 1s ease 0s;
+    width: 100%;
+    z-index: $uiBaseLayerZPlus1;
+}
+
+
+
+.buttonBox li {
+	background-color: $backgroundDim;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    width: 80%;
+}
+
+.buttonBox li:hover, li.on {
+	background-color:#88f;
+	
+}
+
+.buttonBox li a {
+	position:relative;
+	width:100%;
+	height:100%;
+	display:block;
+	color:#aaf;
+	cursor: pointer;
+	z-index: $uiBaseLayerZPlus2;
+}
+
+.buttonBox li a:hover, li.on {
+	color:#fff;
+}
+
+.showHide:hover {
+	background-color:#fff;
+}
+
+#layerStarfield {
+	@include absoluteFullSizeBox;
+	z-index:$canvasBaseLayerZPlus1;
+}
+#layerPlayer {
+	z-index:$canvasBaseLayerZPlus2;
+	@include absoluteFullSizeBox;
+}
+
+.canvasBox {
+	@include fixedFullSizeBox;
+	/*background: -webkit-linear-gradient(top, #040429, #257eb7);*/
+	background-image:url(../images/Wide-field_view_of_the_Summer_Triangle.jpg);
+	background-size:cover;
+	z-index:$canvasBaseLayerZ;
+}
+
+.canvasBox2 {
+	@include fixedFullSizeBox;
+	/*background: -webkit-linear-gradient(top, #040429, #257eb7);*/
+	z-index:$canvas2BaseLayerZ;
+}
+/* Page Specific Styles */
+
+	/* Page Game Specific Styles */
+.pageShell {
+        width:100%;
+        min-width:480px;
+        height:1000px;
+    }
+
+.gameScreen-main {
+	@include absoluteFullSizeBox;
+	background:black;
+	z-index: $canvasBaseLayerZ;
+	background: $gameScreenBGColor;
+}
+
+	/* End Page Game Specific Styles */
+
+/* End Page Specific Styles */
+
+@import 'pageStructure';
+
+.logo {
+	width:20%;
+	position:relative;
+	float:left;
+	height:75px;
+	}
+
+
+@import 'navigationStyles';
+
+
+
+.footOpen {
+	height:50%;
+	background-color:$footerBackgroundOpen;
+}
+
+.footClosed {
+	height:50px;
+	background-color:$footerBackgroundClosed;
+}
+
+.footClosed .footer-content .leftCol,
+.footClosed .footer-content .rightCol {
+	@include opacityFadeOff;
+}
+
+.footOpen .footerContents .leftCol,
+.footOpen .footerContents .rightCol {
+	@include opacityFadeOn;
+}
+
+.footer-content .leftCol {
+	float:left;
+	width:50%;
+}
+.footer-content .rightCol {
+	width:40%;
+	float:right;
+}
+
+
+.footer-content .rightCol h2,
+.footer-content .leftCol h2 {
+	padding:0;
+	margin:0 10px 0 0;
+	height:50px;
+	line-height:50px;
+	font-size:1.4em;
+	text-align:center;
+	border-bottom:1px solid rgba(255,255,255,0.3);
+}
+
+
+
+.footer-content {}
+
+@import 'footerButton';
+
+
+
+.footer-content ul {
+	float:right;
+	color:#ccc;
+	width:100%;
+	text-align:center;
+}
+
+
+@import 'gallery';
+
+
+.liveNav {
+
+	background-color:#f00;
+}
+
+@import 'mediaQuerys';

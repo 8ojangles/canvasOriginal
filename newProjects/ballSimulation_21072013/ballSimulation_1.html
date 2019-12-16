@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Created using jsbin.com
+  Source can be edited via http://jsbin.com/uhiran/6/edit
+-->
+  <head>
+  <title>CreativeJS graphics playground</title> 
+  <style>
+    canvas { border : 1px lightgray solid; }
+    body { margin :0; }
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  
+
+</head>
+  <body>
+
+    <div id="uiOverlay"> <!-- Start UI Overlay -->
+
+      <div class="infoPanelSwitch off">
+        <p>
+          <span>i</span>
+          <span class="long">info</span>
+        </p>
+      </div>
+
+      <div class="infoPanel closed"> <!-- Start Info Panel -->
+
+        <ul class="infoButtons"> <!-- Start Info Panel Button List -->
+          <!-- Info Panel Button List Items-->
+          <li id="Grav"><a>Gravity</a></li>
+          <li id="airR"><a>Air Resistance</a></li>
+          <li id="floorFriction"><a>Floor Friction</a></li> 
+          <li id="ball1"><a>Ball 1</a></li>
+          <li id="ball2"><a>ball 2</a></li>
+          <li id="data"><a>Data</a></li>
+        </ul> <!-- End Info Panel Button List -->
+
+      </div> <!-- End Info Panel -->
+
+  </div> <!-- End UI Overlay -->
+    
+    <canvas id="creativejs"></canvas>
+<script src="jquery.js"></script>
+<script src="creative.js"></script>
+<script src="js.js"></script>  
+</body>
+</html>
+  

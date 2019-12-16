@@ -1,0 +1,55 @@
+/* Opacity Variables */
+$opacityOff : 0;
+$opacityQuarter : 0.25;
+$opacityHalf : 0.5;
+$opacityThreeQuarter : 0.75;
+$opacityOn : 1;
+/* End Opacity Variables */
+
+/* Layer Z index Variables */
+
+/* Layer background Z index Var */
+$backgroundBaseLayerZ : 0;
+$backgroundBaseLayerZPlus1 : $backgroundBaseLayerZ + 10;
+$backgroundBaseLayerZPlus2 : $backgroundBaseLayerZ + 20;
+$backgroundBaseLayerZPlus3 : $backgroundBaseLayerZ + 30;
+
+/* Layer Screen Z index Var */
+$screenBaseLayerZ : 100;
+$screenBaseLayerZPlus1 : $screenBaseLayerZ + 10;
+$screenBaseLayerZPlus2 : $screenBaseLayerZ + 20;
+$screenBaseLayerZPlus3 : $screenBaseLayerZ + 30;
+
+/* Layer Canvas Z index Var */
+$canvasBaseLayerZ : 200;
+$canvasBaseLayerZPlus1 : $canvasBaseLayerZ + 10;
+$canvasBaseLayerZPlus2 : $canvasBaseLayerZ + 20;
+$canvasBaseLayerZPlus3 : $canvasBaseLayerZ + 30;
+
+/* Layer Canvas 2 Z index Var */
+$canvas2BaseLayerZ : 300;
+$canvas2BaseLayerZPlus1 : $canvas2BaseLayerZ + 10;
+$canvas2BaseLayerZPlus2 : $canvas2BaseLayerZ + 20;
+$canvas2BaseLayerZPlus3 : $canvas2BaseLayerZ + 30;
+
+/* Layer Navigation Z index Var */
+$uiBaseLayerZ : 400;
+$uiBaseLayerZPlus1 : $uiBaseLayerZ + 10;
+$uiBaseLayerZPlus2 : $uiBaseLayerZ + 20;
+$uiBaseLayerZPlus3 : $uiBaseLayerZ + 30;
+
+/* End Layer Z index Variables */
+
+/* Navigation Variables */
+
+/* End Navigation Variables */
+
+/* UI Master Variables */
+
+/* End UI Master Variables */
+
+/* UI Inner Variables */
+
+/* End UI Inner Variables */
+
+

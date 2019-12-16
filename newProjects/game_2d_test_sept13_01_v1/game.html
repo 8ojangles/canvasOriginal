@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/fonts/source-sans-pro/stylesheet.css" media="screen" />
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/stylesSass.css" media="screen" />
+
+  <title>Game 2D Test Sept 2013 v1</title>
+ 
+</head>
+
+<body>
+
+<div id="masterFrame" class="masterFrame orangeRed-grad">
+  <div id="masterFrameBg-add" class="masterFrameBg-add darkGrey-grad off"></div>
+    <div id="uiGlobal" class="overlay-layer-screen">
+      <div class="ui-container">
+        <div class="ui-nav-global">
+          <ul class="ui-nav-global-Container">
+            <li class="ui-nav-listItem-layers nav-global-lvl1 locked">
+              <a href="#" id="start" class="nav-global-listItem" >Starting</a>
+              <ul>
+                <li id="continue-game" class="nav-global-lvl2 unlocked">
+                  <a href="#"  class="nav-global-listItem unlocked" >Continue</a>
+                  <div class="nav-global-listItem-window">
+                    <div class="windowBanner">
+                    <h3>Continue Game</h3>
+                    <h3>Player Name</h3> <a href="">Change Player</a>
+                  </div>
+                    <div class="mainArticle">
+                      <h4>Last Played</h4>
+                      <img src="images/2.jpg"/>
+                      <div class="lvlIcon"><span class="lvlTtl">Level</span><span class="lvlNo">4</span></div>
+                      <p class="dateAndTime">Tuesday 13/9/2013 - 4.35pm</p>
+                      <a class="playButton">Play</a>
+                      
+                    </div>
+                    <div class="subArticle">
+                      <h4>Saved Games</h4>
+                      <ul class="savedGames">
+                        <li>
+                          <a href="">
+                            <img src="images/1.jpg"/>
+                            <p>Saved Game 1</p>
+                            <div class="lvlIcon"><span class="lvlTtl">Level</span><span class="lvlNo">2</span></div>
+                            <p>Wednesday 9/9/2013</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <img src="images/2.jpg"/>
+                            <p>Saved Game 2</p>
+                            <div class="lvlIcon"><span class="lvlTtl">Level</span><span class="lvlNo">4</span></div>
+                            <p>Wednesday 9/9/2013</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <img src="images/3.jpg"/>
+                            <p>Saved Game 3</p>
+                           <div class="lvlIcon"><span class="lvlTtl">Level</span><span class="lvlNo">3</span></div>
+                            <p>Wednesday 9/9/2013</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <img src="images/4.jpg"/>
+                            <p>Saved Game 4</p>
+                            <div class="lvlIcon"><span class="lvlTtl">Level</span><span class="lvlNo">2</span></div>
+                            <p>Wednesday 9/9/2013</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li id="new-game" class="nav-global-lvl2 locked">
+                  <a href="#"  class="nav-global-listItem" >New</a>
+                  <div class="nav-global-listItem-window">
+                    <div class="windowBanner">
+                    <h3>New Game</h3>
+                    <h3>Player Name</h3> <a href="">Change Player</a>
+                  </div>
+                  <div class="mainArticle">
+                      <h4>Game Type</h4>
+                      <!-- <img src="images/2.jpg"/> -->
+                      <div class="selectionGridBox-4">
+                        <ul class="gameTypeList">
+                          <li ><a class="gameNormalIcon" href=""><span>Original Game</span></a></li>
+                          <li><a class="gameTimedIcon" href=""><span>Timed Challanges</span></a></li>
+                          <li><a class="gameGrindIcon" href=""><span>Beat the Grind</span></a></li>
+                          <li><a class="gameMultiIcon" href=""><span>Multiplayer</span></a></li>
+                        </ul>
+                      </div>
+                      
+                    </div>
+
+                    <div class="subArticle">
+                      <h4>Difficulty</h4>
+                      <!-- <img src="images/2.jpg"/> -->
+                      <div class="selectionGridBox-4 halfBox">
+                        <ul>
+                          <li><a href="">Easy</a></li>
+                          <li><a href="">Normal</a></li>
+                          <li><a href="">Hard</a></li>
+                          <li><a href="">Hardcore</a></li>
+                        </ul>
+                      </div>
+                      <h4>Level Select</h4>
+                      <!-- <img src="images/2.jpg"/> -->
+                      <div class="selectionGridBox-32 halfBox">
+                        <ul>
+                          <li><a href="">1</a></li>
+                          <li><a href="">2</a></li>
+                          <li><a href="">3</a></li>
+                          <li><a href="">4</a></li>
+                          <li><a href="">5</a></li>
+                          <li><a href="">7</a></li>
+                          <li><a href="">8</a></li>
+                          <li><a href="">9</a></li>
+                          <li><a href="">10</a></li>
+                          <li><a href="">11</a></li>
+                          <li><a href="">12</a></li>
+                          <li><a href="">13</a></li>
+                          <li><a href="">14</a></li>
+                          <li><a href="">15</a></li>
+                          <li><a href="">16</a></li>
+                          <li><a href="">17</a></li>
+                          <li><a href="">18</a></li>
+                          <li><a href="">19</a></li>
+                          <li><a href="">20</a></li>
+                          <li><a href="">21</a></li>
+                          <li><a href="">22</a></li>
+                          <li><a href="">23</a></li>
+                          <li><a href="">24</a></li>
+                          <li><a href="">25</a></li>
+                          <li><a href="">26</a></li>
+                          <li><a href="">27</a></li>
+                          <li><a href="">28</a></li>
+                          <li><a href="">29</a></li>
+                          <li><a href="">30</a></li>
+                          <li><a href="">31</a></li>
+                          <li><a href="">32</a></li>
+                        </ul>
+                      </div>
+                      
+                    </div>
+                </li>
+              </ul>
+            </li>
+            <li class="ui-nav-listItem-layers nav-global-lvl1 unlocked">
+              <a href="#" id="options" class="nav-global-listItem" >Options</a>
+              <ul>
+                <li class="nav-global-lvl2 unlocked">
+                  <a href="#" id="gameOptions" class="nav-global-listItem" >Game</a>
+                  <div class="nav-global-listItem-window">
+                    <p>Window 3 - Game Options</p>
+                  </div>
+                </li>
+                <li class="nav-global-lvl2 unlocked">
+                  <a href="#" id="sound" class="nav-global-listItem" >Sound</a>
+                  <div class="nav-global-listItem-window">
+                    <p>Window 4 - Sound Options</p>
+                  </div>
+                </li>
+              </ul>
+            </li><li class="ui-nav-listItem-layers nav-global-lvl1 unlocked">
+              <a href="#" id="info" class="nav-global-listItem">Info</a>
+              <ul>
+                <li class="nav-global-lvl2 unlocked">
+                  <a href="#" id="admin" class="nav-global-listItem" >Admin</a>
+                  <div class="nav-global-listItem-window">
+                    <p>Window 5 - Admin Options</p>
+                  </div>
+                </li>
+                <li class="nav-global-lvl2 unlocked">
+                  <a href="#" id="resetBtn" class="nav-global-listItem" >Reset</a>
+                  <div class="nav-global-listItem-window">
+                    <p>Window 6 - Reset Options</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul> <!-- Close IU Global Navigation List -->
+        </div> 
+        <div class="ui-page-start">
+        </div>
+        <div class="ui-page-options">
+        </div>
+        <div class="ui-page-game">
+        </div>
+      </div>
+    </div>
+    <div id="game" class="middle-layer-screen">
+    </div>
+    <div id="background" class="bottom-layer-screen">
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript" src="js/creative.js"></script>
+  
+<script type="text/javascript" src="js/jquery.hotkeys-0.7.9.js"></script>
+
+<script type="text/javascript" src="js/js-master.js"></script>
+
+</body>
+
+</html>
