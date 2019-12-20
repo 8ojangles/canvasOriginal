@@ -1,4 +1,12 @@
   
+// colors
+var greenShade = 'rgba( 93, 179, 45, 0.7 )';
+var yellowShade = 'rgba( 201, 153, 40, 0.79 )';
+var redShade = 'rgba( 230, 45, 38, 1 )';
+var blueSolid = 'rgba( 150, 230, 255, 1 )';
+var blueShade = 'rgba( 40, 189, 201, 1 )';
+var blueDarkShade = 'rgba( 40, 189, 201, 0.4 )';
+var purpleShade = 'rgba( 110, 63, 191, 0.75 )';
 
 // housekeeping
 var canvas = document.getElementById('creativejs'),
@@ -39,23 +47,35 @@ function draw() {
   frameRate = 60;
 // Each frame reset color overlay mode
   c.globalCompositeOperation = 'source-over';
-// clearRect  
- 
+
+// clearRect   
   c.fillStyle = "#000";
   c.fillRect(0,0,canvas.width,canvas.height);
  
-  c.strokeStyle = "#fff";
-  c.lineWidth = 1;
-  c.strokeCircle(circle1x,circle1y,circle1rad);
+
 
   c.strokeStyle = "#fff";
   c.lineWidth = 1;
-  c.strokeCircle(circle2x,circle2y,circle2rad);
 
-  circle1x = circle1x + circle1xVel;
-  circle2x = circle2x + circle2xVel;
-  circle1y = circle1y + circle1yVel;
-  circle2y = circle2y + circle2yVel;
+  var blueGradient1 = c.createRadialGradient( circle1x,circle1y, 0, circle1x,circle1y,circle1rad);
+  blueGradient1.addColorStop( 1, blueShade );
+  blueGradient1.addColorStop( 0, blueDarkShade );
+
+  c.fillStyle = blueShade;
+  c.fillCircle(circle1x,circle1y,circle1rad);
+
+  var blueGradient2 = c.createRadialGradient( circle2x,circle2y, 0, circle2x,circle2y,circle2rad);
+  blueGradient2.addColorStop( 1, blueShade );
+  blueGradient2.addColorStop( 0, blueDarkShade );
+
+  c.fillStyle = blueShade;
+  c.fillCircle(circle2x,circle2y,circle2rad);
+
+  circle1x += circle1xVel;
+  circle1y += circle1yVel;
+
+  circle2x += circle2xVel;
+  circle2y += circle2yVel;
 
 
 
@@ -165,7 +185,7 @@ if (actDist > colDist){
 if (d < Math.abs(r1 - r2)) {
     // no solution. one circle is contained in the other
         c2cIntersect = false;
-      }
+}
     // point 2' is the point where the Line through the circle intersection points crosses the Line between the circle centers.
 else {
     // Determine the distance from point 1 To point 2.
@@ -226,19 +246,22 @@ var ry = dx2 * (h/d);
   c.fillStyle = "#f00";
   c.fillText('distance' + ' ' + actDistDisplay,canvas.width-400,230);
 
-  c.strokeStyle = "#0f0";
-  c.line(circle1x,circle1y,circle2x,circle2y);
-  c.strokeStyle = "#0f0";
+  c.setLineDash([8, 4]);
+  
+  // c.strokeStyle = "#0f0";
+  // c.line(circle1x,circle1y,circle2x,circle2y);
+  
+  c.strokeStyle = redShade;
   c.line(intersect1x,intersect1y,intersect2x,intersect2y);
+  c.setLineDash([]);
 
-
-  c.fillStyle = "rgb(255,0,0)";
+  c.fillStyle = blueSolid;
   c.fillCircle(x1,y1,10);
-  c.fillStyle = "rgb(255,0,0)";
+  c.fillStyle = blueSolid;
   c.fillCircle(x2,y2,10);
 
-  c.fillStyle = "rgb(0,0,255)";
-  c.fillCircle(colPointX,colPointY,10);
+  // c.fillStyle = "rgb(0,0,255)";
+  // c.fillCircle(colPointX,colPointY,10);
 
  } //end collision actions
 
